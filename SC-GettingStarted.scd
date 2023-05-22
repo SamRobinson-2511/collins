@@ -279,6 +279,7 @@ https://composerprogrammer.com/teaching/supercollider/sctutorial/2.2%20Mul%20and
 
 
 
+
 /*
 2.3: Controlling Synths
 https://composerprogrammer.com/teaching/supercollider/sctutorial/2.3%20Controlling%20Synths.html
@@ -1299,12 +1300,7 @@ a.set(\trig, 1);
 }.plot(0.1);
 )
 
-(
-{
-	Decay2.ar(Impulse.ar(100), 0.005, 0.01);
-}.plot(0.1);
 
-)
 
 
 
